@@ -1,0 +1,57 @@
+* {
+	margin: 1rem;
+	padding: 0.5rem;
+}
+aside {
+	font-style: italic;
+}
+
+/* block-level elements */
+p,
+div,
+main,
+footer {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+div {
+	background-color: #eee;
+}
+
+/* inline elements */
+img,
+a,
+span,
+button {
+	border: 1px dashed red;
+}
+
+strong {
+	color: red;	
+}
+.callout{
+	  max-width:400px;
+	  margin:10px;
+	  border:1px;
+	  padding:15px; 
+	  background-color:#040273;
+	  color:#fff;
+}
+img{
+	float:right;
+	margin: 0 0 10px 15px;
+	border:1px solid black;
+	padding:3px;
+	background-color:#fff;
+	width:100px;
+	height:auto;
+}
+blockquote{
+	margin:50;
+}
+cite{
+	display:block;
+	border-top: 1px dotted #fff;
+	padding-top:3px;
+	text-align: right;
+	font-size:smaller;
+}
