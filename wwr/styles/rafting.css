@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #50514f;
+    --secondary-color: #3b3c3a;
+    --accent-color: #5f5958;
+    --additional-accent-color: #695f5d;
+    --heading-font: 'Montserrat', sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif;
+    --nav-background-color: #50514f;
+    --nav-link-color: white;
+    --nav-hover-link-color: #5f5958;
+    --nav-hover-background-color: #3b3c3a;
+  }
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+/* Styling headings and paragraph elements */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Remove underlines from social media links */
+a {
+    text-decoration: none;
+}
+
+/* Style the Hero Container */
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article{
+    position: absolute;
+
+}
+
+.hero article img {
+    float: right;
+    margin-left: 20px; /* Example margin */
+}
