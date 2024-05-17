@@ -9,8 +9,9 @@ header,.grid,footer {
   }
   .grid{
     display:grid;
-    grid-template-columns: 1fr 3fr;
+    align-items: center;
   }
+
 nav{
     background-color:steelblue;
     padding:1rem;
@@ -49,11 +50,17 @@ aside{
     color:#333;
     text-align: center;
     position:relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 aside h2 {
     position: absolute;
     top: 25px;
     left: 115px;
+  }
+  main{
+    grid-column: 2/3;
+    margin: 1rem;
   }
 main img{
     width: 200px;
