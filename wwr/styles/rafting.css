@@ -62,3 +62,71 @@ a {
     float: right;
     margin-left: 20px; /* Example margin */
 }
+
+header{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: var(--nav-background-color);
+    padding: 10px 20px;
+}
+header img{
+    width: 100px;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+}
+header nav a {
+    color: var(--nav-link-color);
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: var(--nav-hover-link-color);
+}
+.adventures{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.adventures_pics{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: auto;
+}
+.adventures_pics img{
+    margin: .5em;
+
+}
+.history{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.history_content{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    align-items: center;
+    padding: auto;
+}
+.history_content p {
+    display: flex;
+    padding: auto;
+}
+.history_content img {
+    display: flex;
+    padding: 2rem;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.social_media {
+    margin: 1rem;
+}
