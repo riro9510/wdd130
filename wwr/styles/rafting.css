@@ -224,3 +224,22 @@ form {
 .container{
     margin:50px;
 }
+.employee-profiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.employee-profiles figure {
+    text-align: center;
+}
+
+.employee-profiles img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.employee-profiles figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
