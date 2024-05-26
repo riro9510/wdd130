@@ -67,3 +67,9 @@ legend{
     color:rgb(38, 38, 116) ;
     font-weight: 600;
 }
+footer {
+    margin: 10px;
+    border:1px 1px 1px 1px solid #000;
+    padding: 10px;
+    background-color: #eee;
+  }
