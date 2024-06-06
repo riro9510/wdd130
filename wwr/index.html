@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <meta name="description" content="WDD 130: Home">
+    <meta name="author" content="Ricardo Ramos Olivares">
+    <title>River Rapids Rafting Co. | Home</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Site Logo">
+        <nav>
+            <a href="#">Home</a>            
+            <a href="./about.html">About</a>
+            <a href="./trips.html">Trips</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="images/hero-background.jpg" alt="Rafting Adventure">
+                <section class="hero-text">
+                    <h1>Welcome to River Rapids Rafting Co.</h1>
+                    <p>Join us for an unforgettable adventure on the best rivers!</p>
+                    <a href="./trips.html" class="cta-button">Explore Our Trips</a>
+                </section>
+        </section>
+        <section class="newsletter">
+            <h2>Stay Updated</h2>
+            <p>We are a premier rafting company offering thrilling and safe whitewater rafting experiences. Subscribe to get updates about our trips and packages!.</p>
+            <form action="#">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+
+        <!-- Company Information Section -->
+
+        <!-- Grid Layout Section -->
+        <section class="grid-layout">
+            <div class="grid-item">
+                <img src="images/rafting-3.jpg" alt="Rafting Experience">
+                <p>Our rafting adventures are designed to offer the ultimate thrill while ensuring your safety.</p>
+            </div>
+            <div class="grid-item">
+                <img src="images/rafting-4.jpg" alt="Rafting Fun">
+                <p>Join us for group trips that foster teamwork and create unforgettable memories.</p>
+            </div>
+            <div class="grid-item">
+                <img src="images/rafting-5.jpg" alt="Beautiful Scenery">
+                <p>Experience breathtaking scenery and the rush of the rapids with our expert guides.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> River Rapids Rafting Co. | Ricardo Ramos Olivares</p>
+        <section class="social_media">
+            <a href="https://www.facebook.com"><img src="images/facebook-icon.webp" alt="Facebook"></a>
+            <a href="https://www.twitter.com"><img src="images/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com"><img src="images/Instagram-Icon.png" alt="Instagram"></a>
+            <a href="https://app.moqups.com/4B6WoXCOoCHacldkdmCwJqbpspQqkIko/view/page/a40aa74a1"><img src="images/wireframe-icon.png" alt="WireFrame"></a>
+        </section>
+    </footer>
+    
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

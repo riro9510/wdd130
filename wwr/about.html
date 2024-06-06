@@ -6,54 +6,59 @@
     <link rel="stylesheet" href="./styles/rafting.css">
     <meta name="description" content="WDD 130: About us">
     <meta name="author" content="Ricardo Ramos Olivares">
-    <title>River Rapis Rafting Co. | About us</title>
+    <title>River Rapids Rafting Co. | About us</title>
 </head>
 <body>
     <header>
         <img src="images/logo.png" alt="Rafting Site Logo">
         <nav>
-            <a href="./site-plan-rafting.html">Home</a>            
+            <a href="./index.html">Home</a>            
             <a href="#">About</a>
-            <a href="wwr/site-plan-rafting.html">trips</a>
-            <a href="https://linkedin.com">Contact</a>
+            <a href="./trips.html">Trips</a>
+            <a href="./contact.html">Contact</a>
         </nav>
     </header>
     <main>
         <div class="hero">
             <img src="images/hero-background.jpg" alt="Hero Background Image">
-            <h1>River Rapids Rafting Co.</h1>
+            <div class="hero-text">
+                <h1>River Rapids Rafting Co.</h1>
+            </div>
         </div>
-        <article>
+        <article class="about-content">
             <img src="images/happy-client.webp" alt="Happy Client">
             <p>At River Rapids Rafting Co., we strive to provide thrilling adventures and unforgettable experiences for all our customers. Our mission is to make every trip down the river an exhilarating and safe journey.</p>
         </article>
         <section class="history">
             <h2>History</h2>
-            <section class="history_content">
-            <p>Established in 1995, River Rapids Rafting Co. began as a small family-owned business with a passion for adventure and a love for nature. Over the years, we have grown into one of the leading rafting companies in the region, known for our expertise, professionalism, and dedication to customer satisfaction.</p>
-            <img src="images/history.jpg" alt="history">
-            <p>Our history isn't etched in stone, it's as fluid as the tours we provide. With each journey down the river, we craft new memories and experiences, ensuring every adventure is as unique as the next. At River Rapids Rafting Co., we're committed to providing exhilarating adventures that leave a lasting impression.</p>
-            </section>
+            <div class="history-content">
+                <p>Established in 1995, River Rapids Rafting Co. began as a small family-owned business with a passion for adventure and a love for nature. Over the years, we have grown into one of the leading rafting companies in the region, known for our expertise, professionalism, and dedication to customer satisfaction.</p>
+                <img src="images/history.jpg" alt="History">
+                <p>Our history isn't etched in stone, it's as fluid as the tours we provide. With each journey down the river, we craft new memories and experiences, ensuring every adventure is as unique as the next. At River Rapids Rafting Co., we're committed to providing exhilarating adventures that leave a lasting impression.</p>
+            </div>
         </section>
-        <section class = "adventures">
+        <section class="adventures">
             <h2>Adventure Awaits You!</h2>
-            <section class="adventures_pics">
-            <img src="images/rafting-1.jpg" alt="Rafting Adventure">
-            <img src="images/rafting-2.jpg" alt="Rafting Adventure">
-            <img src="images/rafting-3.jpg" alt="Rafting Adventure">
-            <img src="images/rafting-4.jpg" alt="Rafting Adventure">
-            <img src="images/rafting-5.jpg" alt="Rafting Adventure">
-            </section>
+            <div class="adventures-pics">
+                <img src="images/rafting-1.jpg" alt="Rafting Adventure">
+                <img src="images/rafting-2.jpg" alt="Rafting Adventure">
+                <img src="images/rafting-3.jpg" alt="Rafting Adventure">
+                <img src="images/rafting-4.jpg" alt="Rafting Adventure">
+                <img src="images/rafting-5.jpg" alt="Rafting Adventure">
+            </div>
         </section>
     </main>
     <footer>
         <p>&copy; <span id="year"></span> River Rapids Rafting Co. | Ricardo Ramos Olivares</p>
         <section class="social_media">
-        <a href="https://www.facebook.com"><img src="images/facebook-icon.png" alt="Facebook"></a>
-        <a href="https://www.twitter.com"><img src="images/twitter-icon.png" alt="Twitter"></a>
-        <a href="https://www.instagram.com"><img src="images/instagram-icon.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com"><img src="images/facebook-icon.webp" alt="Facebook"></a>
+            <a href="https://www.twitter.com"><img src="images/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com"><img src="images/Instagram-Icon.png" alt="Instagram"></a>
         </section>
     </footer>
     
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
